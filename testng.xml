@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+   <test name="InstagramTests">
+    <classes>
+      <class name="testclasses.InstagramSignUpByDataFromJson"/>
+    </classes>
+  </test>
+
+  <test name="FacebookTests">
+    <classes>
+      <class name="testclasses.LoginFaceBook"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
