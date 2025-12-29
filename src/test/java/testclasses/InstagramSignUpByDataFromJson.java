@@ -22,7 +22,7 @@ import testComponant.BaseTest;
 public class InstagramSignUpByDataFromJson {
 
 	WebDriver driver; 
-	
+	//3rd change form github from child branch
 	@BeforeMethod
 	public void openApplication() throws IOException
 	{
