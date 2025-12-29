@@ -19,7 +19,7 @@ import testComponant.BaseTest;
 public class LoginFaceBook  {
 
 	WebDriver driver;
-	
+	//2nd change from github
 	@BeforeMethod
 	public void openApplication() throws IOException
 	{
